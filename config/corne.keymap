@@ -175,7 +175,7 @@
         };
 
         mac_raise_layer {
-            label = "NUMERS";
+            label = "NUMBERS";
             display-name = "NUMBERS";
             bindings = <
 &kp DE_SECTION    &kp DE_EXCL   &kp DE_AT     &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS       &kp DE_SLASH  &kp DE_GRAVE         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
