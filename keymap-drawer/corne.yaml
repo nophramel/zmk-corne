@@ -199,7 +199,7 @@ layers:
   MAC-SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '@'
+  - Alt+ G
   - '#'
   - $
   - '%'
@@ -209,7 +209,7 @@ layers:
   - '*'
   - (
   - )
-  - \
+  - {t: Alt+Sft+ 7, s: Alt+Sft+ &}
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -220,9 +220,9 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '`', s: '~'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '|'
+  - {t: Alt+ 5, s: Alt+ %}
+  - {t: Alt+ 6, s: Alt+ ^}
+  - {t: Alt+ 7, s: Alt+ &}
   - {t: '$$mdi:transfer$$', type: trans}
   - '6'
   - '7'
@@ -232,10 +232,10 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - _
   - +
-  - '~'
-  - '{'
-  - '}'
-  - '~'
+  - Alt+ N
+  - {t: Alt+ 8, s: Alt+ *}
+  - {t: Alt+ 9, s: Alt+ (}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
