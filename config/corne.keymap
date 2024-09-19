@@ -149,15 +149,15 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp F1           &kp F2          &kp F3             &kp F4        &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10   &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                         &kp C_MUTE      &trans             &trans        &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
-                                                                                             &mkp LCLK
+&trans             &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7    &kp F8  &kp F9     &kp F10   &kp BSPC
+&ext_power EP_TOG  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
+&rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_LEFT   &rgb_ug RGB_SPD  &trans    &trans  &trans     &kp END   &kp PG_DN
+                                    &trans           &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL   &trans
+                                                                                                          &mkp LCLK
             >;
 
             label = "FN";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
         defaul_mac_layer {
@@ -176,7 +176,7 @@
 
         mac_raise_layer {
             label = "NUMBERS";
-            display-name = "NUMBERS";
+            display-name = "MACNUMBERS";
             bindings = <
 &kp DE_SECTION    &kp DE_EXCL   &kp DE_AT     &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS       &kp DE_SLASH  &kp DE_GRAVE         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
 &kp DE_ASTERISK   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN  &kp DE_EQUAL  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE
@@ -192,14 +192,14 @@
             label = "MAC-FN";
             display-name = "MAC-FN";
             bindings = <
-&trans  &kp F1           &kp F2          &kp F3             &kp F4        &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10   &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                         &kp C_MUTE      &trans             &trans        &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
-                                                                                             &mkp LCLK
+&trans             &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7    &kp F8  &kp F9     &kp F10   &kp BSPC
+&ext_power EP_TOG  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
+&rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_LEFT   &rgb_ug RGB_SPD  &trans    &trans  &trans     &kp END   &kp PG_DN
+                                    &trans           &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL   &trans
+                                                                                                          &mkp LCLK
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 };
