@@ -114,12 +114,12 @@
                                                                                                        &kp ENTER
             >;
 
-            label = "WINDOWS";
+            label = "QWERTZ";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         win_raise_layer {
-            display-name = "WIN-NUM";
+            display-name = "NUMBERS";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -135,7 +135,7 @@
                                                                                                  &mkp LCLK
             >;
 
-            label = "NUM-SYM";
+            label = "NUMBERS";
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
@@ -175,8 +175,8 @@
         };
 
         mac_raise_layer {
-            label = "NUM-SYM";
-            display-name = "MAC-NUM";
+            label = "NUMERS";
+            display-name = "NUMBERS";
             bindings = <
 &kp DE_SECTION    &kp DE_EXCL   &kp DE_AT     &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS       &kp DE_SLASH  &kp DE_GRAVE         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
 &kp DE_ASTERISK   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN  &kp DE_EQUAL  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE
