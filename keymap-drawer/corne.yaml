@@ -125,20 +125,20 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - RGB TOG
-  - RGB BRI
-  - RGB BRD
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAD
   - RGB EFF
   - RGB EFR
-  - RGB SPI
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - RGB SPI
   - RGB SPD
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - PRINTSCREEN
@@ -272,20 +272,20 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - RGB TOG
-  - RGB BRI
-  - RGB BRD
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAD
   - RGB EFF
   - RGB EFR
-  - RGB SPI
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - RGB SPI
   - RGB SPD
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - PRINTSCREEN
