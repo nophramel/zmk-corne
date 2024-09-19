@@ -149,10 +149,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans             &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7    &kp F8  &kp F9     &kp F10   &kp BSPC
-&ext_power EP_TOG  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
-&rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_LEFT   &rgb_ug RGB_SPD  &trans    &trans  &trans     &kp END   &kp PG_DN
-                                    &trans           &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL   &trans
+&trans             &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8  &kp F9     &kp F10   &kp BSPC
+&ext_power EP_TOG  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
+&rgb_ug RGB_HUI    &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &mmv MOVE_LEFT   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans  &trans     &kp END   &kp PG_DN
+                                    &rgb_ug RGB_TOG  &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
                                                                                                           &mkp LCLK
             >;
 
@@ -192,10 +192,10 @@
             label = "MAC-FN";
             display-name = "MAC-FN";
             bindings = <
-&trans             &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7    &kp F8  &kp F9     &kp F10   &kp BSPC
-&ext_power EP_TOG  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
-&rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_LEFT   &rgb_ug RGB_SPD  &trans    &trans  &trans     &kp END   &kp PG_DN
-                                    &trans           &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL   &trans
+&trans             &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8  &kp F9     &kp F10   &kp BSPC
+&ext_power EP_TOG  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
+&rgb_ug RGB_HUI    &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &mmv MOVE_LEFT   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans  &trans     &kp END   &kp PG_DN
+                                    &rgb_ug RGB_TOG  &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
                                                                                                           &mkp LCLK
             >;
 
