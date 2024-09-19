@@ -112,7 +112,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP TOG
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -125,20 +125,20 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - EP OFF
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
+  - RGB TOG
   - RGB BRI
   - RGB BRD
+  - RGB EFF
+  - RGB EFR
+  - RGB SPI
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - RGB SPD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - PRINTSCREEN
@@ -193,10 +193,10 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - NUMBERS
+  - MACNUMBERS
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  NUMBERS:
+  MACNUMBERS:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))))
   - ((RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))))
@@ -259,7 +259,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP TOG
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -272,20 +272,20 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - EP OFF
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
+  - RGB TOG
   - RGB BRI
   - RGB BRD
+  - RGB EFF
+  - RGB EFR
+  - RGB SPI
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - RGB SPD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - PRINTSCREEN
