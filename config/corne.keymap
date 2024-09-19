@@ -77,6 +77,22 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        to-MAC {
+            bindings = <&to 3>;
+            key-positions = <41 45>;
+            layers = <0>;
+        };
+
+        to-WIN {
+            bindings = <&to 0>;
+            key-positions = <41 45>;
+            layers = <3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
