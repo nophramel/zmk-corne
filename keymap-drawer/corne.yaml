@@ -189,7 +189,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - LGUI
-  - NUM & SYMB
+  - MAC-FN
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -245,7 +245,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
-  NUM & SYMB:
+  MAC-FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
