@@ -97,7 +97,7 @@
         compatible = "zmk,keymap";
 
         default_win_layer {
-            display-name = "WINDOWS";
+            display-name = "QWERTZ";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |                ↑    |  Y  |  U   |  I  |  O  |  P  | BKSP |      &kp UP_ARROW 
@@ -119,7 +119,7 @@
         };
 
         win_raise_layer {
-            display-name = "NUM-SYM";
+            display-name = "WIN-NUM";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -128,11 +128,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp DE_EXCL   &kp DE_AT     &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_GRAVE      &kp DE_AMPS   &kp DE_ASTERISK      &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN  &kp DE_EQUAL  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE
-&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS      &kp DE_PLUS   &kp DE_TILDE         &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_TILDE
-                      &trans        &kp LEFT_COMMAND  &trans         &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE     &trans        &kp ENTER
-                                                                                       &mkp LCLK
+&kp DE_SECTION    &kp DE_EXCL   &kp DE_AT     &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS       &kp DE_SLASH  &kp DE_GRAVE         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
+&kp DE_ASTERISK   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN  &kp DE_EQUAL  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE
+&kp DE_C_CEDILLA  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS      &kp DE_PLUS   &kp DE_TILDE         &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_SLASH
+                                &trans        &kp LEFT_COMMAND  &trans         &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE     &trans        &kp ENTER
+                                                                                                 &mkp LCLK
             >;
 
             label = "NUM-SYM";
@@ -160,7 +160,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        defaul_mac_layer_3 {
+        defaul_mac_layer {
             label = "MAC";
             display-name = "MAC";
             bindings = <
@@ -175,14 +175,14 @@
         };
 
         mac_raise_layer {
-            label = "MAC-SYM";
-            display-name = "MAC-SYM";
+            label = "NUM-SYM";
+            display-name = "MAC-NUM";
             bindings = <
-&trans  &kp EXCL      &kp LA(G)     &kp HASH          &kp DLLR      &kp PRCNT       &mmv MOVE_UP     &kp CARET      &kp AMPS   &kp ASTRK  &kp LPAR    &kp RPAR    &kp LA(LS(N7))
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_DOWN   &kp MINUS      &kp EQUAL  &kp GRAVE  &kp LA(N5)  &kp LA(N6)  &kp LA(N7)
-&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0    &mmv MOVE_LEFT   &kp UNDER      &kp PLUS   &kp LA(N)  &kp LA(N8)  &kp LA(N9)  &trans
-                      &trans        &kp LEFT_COMMAND  &trans        &kp SPACE       &mmv MOVE_RIGHT  &kp BACKSPACE  &trans     &kp ENTER
-                                                                                    &mkp LCLK
+&kp DE_SECTION    &kp DE_EXCL   &kp DE_AT     &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS       &kp DE_SLASH  &kp DE_GRAVE         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
+&kp DE_ASTERISK   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN  &kp DE_EQUAL  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE
+&kp DE_C_CEDILLA  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS      &kp DE_PLUS   &kp DE_TILDE         &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_SLASH
+                                &trans        &kp LEFT_COMMAND  &trans         &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE     &trans        &kp ENTER
+                                                                                                 &mkp LCLK
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
