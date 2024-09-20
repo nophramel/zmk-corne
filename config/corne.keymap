@@ -82,13 +82,13 @@
 
         to-MAC {
             bindings = <&to 3>;
-            key-positions = <41 45>;
+            key-positions = <40 46>;
             layers = <0>;
         };
 
         to-WIN {
             bindings = <&to 0>;
-            key-positions = <41 45>;
+            key-positions = <40 46>;
             layers = <3>;
         };
     };
