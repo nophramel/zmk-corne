@@ -295,9 +295,9 @@ layers:
   - {t: MACNUM, h: toggle}
   - $$mdi:mouse-left-click-outline$$
 combos:
-- p: [41, 45]
+- p: [40, 46]
   k: {t: MAC, h: toggle}
   l: [default_win]
-- p: [41, 45]
+- p: [40, 46]
   k: {t: default_win, h: toggle}
   l: [MAC]
