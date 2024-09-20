@@ -131,7 +131,7 @@
 &kp DE_SECTION  &kp DE_EXCL   &kp DE_DOUBLE_QUOTES  &kp DE_ASTERISK  &kp DE_C_CEDILLA  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS       &kp DE_SLASH  &kp DE_GRAVE         &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
 &kp DE_DOLLAR   &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3     &kp NUMBER_4      &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN  &kp DE_EQUAL  &kp DE_GREATER_THAN  &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE
 &kp DE_CARET    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS      &kp DE_PLUS   &kp DE_TILDE         &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_SLASH
-                              &trans                &trans           &kp TAB           &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE     &kp ENTER     &trans
+                              &trans                &to 2            &kp TAB           &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE     &kp ENTER     &to 0
                                                                                                          &mkp LCLK
             >;
 
@@ -152,7 +152,7 @@
 &ext_power EP_TOG  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9  &kp F10   &kp F11
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &trans           &trans           &trans           &trans  &kp HOME  &kp PG_UP
 &rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans  &kp END   &kp PG_DN
-                                    &rgb_ug RGB_TOG  &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
+                                    &rgb_ug RGB_TOG  &to 0            &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &to 1
                                                                                                           &mkp LCLK
             >;
 
@@ -181,7 +181,7 @@
 &kp TILDE      &kp DE_EXCL   &kp DE_DOUBLE_QUOTES  &kp DE_ASTERISK  &kp DE_C_CEDILLA  &kp DE_PERCENT    &mmv MOVE_UP     &kp DE_AMPS    &kp DE_SLASH  &kp DE_GRAVE      &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH
 &kp DE_DOLLAR  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3     &kp NUMBER_4      &kp NUMBER_5      &mmv MOVE_DOWN   &kp LESS_THAN  &kp DE_EQUAL  &kp GREATER_THAN  &kp LEFT_BRACKET         &kp RIGHT_BRACKET         &kp DE_PIPE
 &kp DE_CARET   &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS   &kp DE_PLUS   &kp DE_TILDE      &kp LEFT_BRACE           &kp RIGHT_BRACE           &kp DE_SLASH
-                             &trans                &trans           &kp TAB           &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE  &kp ENTER     &trans
+                             &trans                &to 5            &kp TAB           &kp SPACE         &mmv MOVE_RIGHT  &kp BACKSPACE  &kp ENTER     &to 3
                                                                                                         &mkp LCLK
             >;
 
@@ -195,7 +195,7 @@
 &ext_power EP_TOG  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9  &kp F10   &kp F11
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &trans           &trans           &trans           &trans  &kp HOME  &kp PG_UP
 &rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans  &kp END   &kp PG_DN
-                                    &rgb_ug RGB_TOG  &trans           &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
+                                    &rgb_ug RGB_TOG  &to 3            &trans           &kp PRINTSCREEN    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &to 4
                                                                                                           &mkp LCLK
             >;
 
