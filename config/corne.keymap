@@ -103,7 +103,7 @@
         compatible = "zmk,keymap";
 
         default_win_layer {
-            display-name = "QWERTZ";
+            display-name = "QWERTZ"; // for README.md drawing
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |                ↑    |  Y  |  U   |  I  |  O  |  P  | BKSP |      &kp UP_ARROW 
@@ -120,7 +120,7 @@
                                                                                                       &kp ENTER
             >;
 
-            label = "QWERTZ";
+            label = "QWERTZ"; // for DISPLAY label
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -209,7 +209,7 @@
         };
 
         game_default_layer_6 {
-            label = "QWERTZ";
+            label = "GAME";
             display-name = "GAME";
             bindings = <
 &kp ESC           &kp Q  &kp W            &kp E            &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                &kp O               &kp P                         &kp LEFT_BRACKET
