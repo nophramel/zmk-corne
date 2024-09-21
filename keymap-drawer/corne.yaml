@@ -294,10 +294,62 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: MACNUM, h: toggle}
   - $$mdi:mouse-left-click-outline$$
+  GAME:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', s: '{'}
+  - $$mdi:keyboard-tab$$
+  - A
+  - S
+  - D
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - $$mdi:arrow-down-bold$$
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - K
+  - L
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - V
+  - B
+  - $$mdi:arrow-left-bold$$
+  - N
+  - M
+  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:backspace-reverse-outline$$
+  - MUTE
+  - win_lower
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - win_raise
+  - {t: '$$mdi:keyboard-return$$', type: enter}
 combos:
 - p: [40, 46]
   k: {t: MAC, h: toggle}
   l: [default_win]
 - p: [40, 46]
   k: {t: default_win, h: toggle}
-  l: [MAC]
+  l: [MAC, GAME]
+- p: [26, 38]
+  k: {t: GAME, h: toggle}
+  l: [default_win, MAC]
