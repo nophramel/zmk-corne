@@ -41,7 +41,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - MUTE
-  - fn
+  - {t: win_lower, h: toggle}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
@@ -90,15 +90,15 @@ layers:
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: win_lower, h: toggle}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: default_win, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  fn:
+  win_lower:
   - EP TOG
   - F1
   - F2
@@ -139,13 +139,13 @@ layers:
   - END
   - PG DN
   - RGB TOG
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: default_win, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: win_raise, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   MAC:
   - $$mdi:keyboard-esc$$
@@ -188,7 +188,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - MUTE
-  - fn
+  - {t: MAC-FN, h: toggle}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
@@ -237,13 +237,62 @@ layers:
   - Alt+ 9
   - Alt+Sft+ 7
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: MAC-FN, h: toggle}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: MAC, h: toggle}
+  - $$mdi:mouse-left-click-outline$$
+  MAC-FN:
+  - EP TOG
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - $$mdi:bluetooth-off$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
+  - PG UP
+  - RGB TOG
+  - RGB BRI
+  - RGB BRD
+  - RGB HUI
+  - RGB HUD
+  - RGB EFF
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - RGB EFR
+  - RGB SPI
+  - RGB SPD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - END
+  - PG DN
+  - RGB TOG
+  - {t: MAC, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - INS
+  - $$mdi:backspace-reverse-outline$$
+  - {t: MACNUM, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   GAME:
   - $$mdi:keyboard-esc$$
@@ -286,7 +335,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - MUTE
-  - fn
+  - win_lower
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
