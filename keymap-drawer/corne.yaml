@@ -335,13 +335,13 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - MUTE
-  - win_lower
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - win_raise
+  - NUMBERS
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMBERS:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
@@ -390,7 +390,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
 combos:
 - p: [40, 46]
