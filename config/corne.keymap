@@ -103,6 +103,12 @@
             key-positions = <31 33>;
             layers = <0 6>;
         };
+
+        to-MAC-FN {
+            bindings = <&to 5>;
+            key-positions = <31 33>;
+            layers = <3>;
+        };
     };
 
     keymap {
