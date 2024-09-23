@@ -99,7 +99,7 @@
         };
 
         to-FN {
-            bindings = <&to 1>;
+            bindings = <&to 2>;
             key-positions = <31 33>;
             layers = <0 6>;
         };
