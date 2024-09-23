@@ -395,10 +395,10 @@ layers:
 combos:
 - p: [40, 46]
   k: {t: MAC, h: toggle}
-  l: [default_win]
+  l: [default_win, GAME, MAC-FN]
 - p: [40, 46]
   k: {t: default_win, h: toggle}
-  l: [MAC, GAME]
+  l: [MAC, GAME, win_lower]
 - p: [26, 38]
   k: {t: GAME, h: toggle}
   l: [default_win, MAC]
