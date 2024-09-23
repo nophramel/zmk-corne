@@ -403,7 +403,7 @@ combos:
   k: {t: GAME, h: toggle}
   l: [default_win, MAC]
 - p: [31, 33]
-  k: {t: win_raise, h: toggle}
+  k: {t: win_lower, h: toggle}
   l: [default_win, GAME]
 - p: [31, 33]
   k: {t: MAC-FN, h: toggle}
