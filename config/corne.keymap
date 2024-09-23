@@ -83,13 +83,13 @@
         to-MAC {
             bindings = <&to 3>;
             key-positions = <40 46>;
-            layers = <0>;
+            layers = <0 6 5>;
         };
 
         to-WIN {
             bindings = <&to 0>;
             key-positions = <40 46>;
-            layers = <3 6>;
+            layers = <3 6 2>;
         };
 
         to-GAME {
