@@ -97,6 +97,12 @@
             key-positions = <26 38>;
             layers = <0 3>;
         };
+
+        to-FN {
+            bindings = <&to 1>;
+            key-positions = <31 33>;
+            layers = <0 6>;
+        };
     };
 
     keymap {
@@ -115,7 +121,7 @@
 &kp ESC    &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
 &kp TAB    &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
 &kp LCTRL  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
-                                &kp K_MUTE       &mo 2                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &tog 1
+                                &kp K_MUTE       &mo 1                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 1
                                                                                                       &kp ENTER
             >;
 
@@ -172,7 +178,7 @@
 &kp ESC    &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
 &kp TAB    &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
 &kp LCTRL  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
-                                &kp K_MUTE       &mo 5                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &tog 4
+                                &kp K_MUTE       &mo 4                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 4
                                                                                                       &kp ENTER
             >;
 
