@@ -124,11 +124,11 @@
             //                                                      enter
 
             bindings = <
-&kp ESC    &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
-&kp TAB    &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
-&kp LCTRL  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
-                                &kp K_MUTE       &mo 1                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 1
-                                                                                                      &kp ENTER
+&kp ESC       &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
+&kp CAPSLOCK  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
+&kp LCTRL     &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
+                                   &kp K_MUTE       &mo 1                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 1
+                                                                                                         &kp ENTER
             >;
 
             label = "QWERTZ"; // for DISPLAY label
@@ -181,11 +181,11 @@
             label = "MAC";
             display-name = "MAC";
             bindings = <
-&kp ESC    &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
-&kp TAB    &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
-&kp LCTRL  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
-                                &kp K_MUTE       &mo 4                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 4
-                                                                                                      &kp ENTER
+&kp ESC       &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
+&kp CAPSLOCK  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
+&kp LCTRL     &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
+                                   &kp K_MUTE       &mo 4                &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 4
+                                                                                                         &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -224,7 +224,7 @@
             display-name = "GAME";
             bindings = <
 &kp ESC         &kp Q                &kp W            &kp E            &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                &kp O               &kp P                         &kp LEFT_BRACKET
-&kp TAB         &kp A                &kp S            &kp D            &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &kp K                &kp L               &hmr RIGHT_CONTROL SEMICOLON  &kp SQT
+&kp CAPSLOCK    &kp A                &kp S            &kp D            &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &kp K                &kp L               &hmr RIGHT_CONTROL SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &hml LEFT_CONTROL Z  &hml LEFT_ALT X  &hml LEFT_GUI C  &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &hmr LEFT_GUI COMMA  &hmr RIGHT_ALT DOT  &kp FSLH                      &kp DELETE
                                      &kp K_MUTE       &mo 7            &kp TAB            &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &kp ENTER           &mo 7
                                                                                                        &kp ENTER
