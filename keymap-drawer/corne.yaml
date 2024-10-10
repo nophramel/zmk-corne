@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -161,7 +161,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -308,7 +308,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
