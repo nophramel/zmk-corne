@@ -2,11 +2,16 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
+    - name: nophramel
+      url-base: https://github.com/nophramel/nice-view-mod.git
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+    - name: nice-view-mod
+      remote: nophramel
+      revision: main
   self:
     path: config
 
