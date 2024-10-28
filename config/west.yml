@@ -3,7 +3,7 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
     - name: nophramel
-      url-base: https://github.com/nophramel/nice-view-mod.git
+      url-base: https://github.com/nophramel
   projects:
     - name: zmk
       remote: urob
