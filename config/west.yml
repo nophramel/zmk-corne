@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
-    - name: nophramel                         #new entry
-      url-base: https://github.com/nophramel  #new entry
+    - name: nice-view-mod                         #new entry
+      url-base: https://github.com/nophramel      #new entry
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
-    - name: urchin-peripheral-animation   #new entry
-      remote: gpeye                       #new entry
+    - name: nice-view-mod                 #new entry
+      remote: nophramel                   #new entry
       revision: main                      #new entry
   self:
     path: config
