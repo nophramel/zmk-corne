@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
-    - name: nice-view-mod                         #new entry
+    - name: nophramel                             #new entry
       url-base: https://github.com/nophramel      #new entry
   projects:
     - name: zmk
