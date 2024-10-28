@@ -1,5 +1,10 @@
 include:
+ 
   - board: nice_nano_v2
-    shield: urchin_left nice_view_adapter  nice_view_custom #custom shield
-  - board: nice_nano_v2
+    shield: settings_reset
+  - board: corne_left
+    shield: urchin_left nice_view_adapter nice_view_custom #custom shield
+    artifact-name: corne_left_nice_view
+  - board: corne_right
     shield: urchin_right nice_view_adapter nice_view_custom #custom shield
+    artifact-name: corne_right_nice_view
