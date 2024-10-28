@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default_win:
   - $$mdi:keyboard-esc$$
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -239,7 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -386,7 +386,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
