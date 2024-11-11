@@ -236,7 +236,7 @@ layers:
   - Alt+ 8
   - Alt+ 9
   - Alt+Sft+ 7
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PLAY PAUSE
   - {type: held}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
