@@ -42,11 +42,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - MUTE
   - NAV-FUN
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: NAV-FUN}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: RETURN, h: NUMBERS}
   - NUMBERS
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMBERS:
@@ -95,11 +95,11 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   NAV-FUN:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -140,7 +140,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - Sft+Gui+ 5
@@ -189,11 +189,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - MUTE
   - NAV-FUN
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: NAV-FUN}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: RETURN, h: MACNUM}
   - MACNUM
   - {t: '$$mdi:keyboard-return$$', type: enter}
   MACNUM:
@@ -238,12 +238,12 @@ layers:
   - Alt+Sft+ 7
   - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   GAME:
   - $$mdi:keyboard-esc$$
@@ -287,11 +287,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - MUTE
   - NUMBERS
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: GAME}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBERS}
   - NUMBERS
   - {t: '$$mdi:keyboard-return$$', type: enter}
   KEYBOARD:
