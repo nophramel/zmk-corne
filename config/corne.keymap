@@ -98,13 +98,13 @@
             layers = <0 3>;
         };
 
-        to-FN {
+        to-NAV-FUN {
             bindings = <&to 8>;
             key-positions = <31 33>;
             layers = <0 6>;
         };
 
-        to-MAC-FN {
+        to-MAC-NAV {
             bindings = <&to 8>;
             key-positions = <31 33>;
             layers = <3>;
@@ -148,7 +148,7 @@
 &kp DE_SECTION                &kp DE_EXCL                 &kp DE_DOUBLE_QUOTES    &hml DE_HASH DE_ASTERISK  &hml DE_CENT DE_C_CEDILLA  &kp DE_PERCENT    &mmv MOVE_UP     &hmr DE_NOT DE_AMPS  &kp DE_SLASH               &hmr DE_GRAVE DE_SINGLE_QUOTE   &kp DE_LEFT_PARENTHESIS         &kp DE_RIGHT_PARENTHESIS             &kp DE_QUESTION
 &hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT NUMBER_2  &hml LEFT_GUI NUMBER_3    &hml LEFT_SHIFT NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN     &hmr RIGHT_SHIFT DE_EQUAL  &hmr RIGHT_GUI DE_GREATER_THAN  &hmr RIGHT_ALT DE_LEFT_BRACKET  &hmr RIGHT_CONTROL DE_RIGHT_BRACKET  &hmr DE_BROKEN_BAR DE_PIPE
 &kp DE_CARET                  &kp NUMBER_6                &kp NUMBER_7            &kp NUMBER_8              &kp NUMBER_9               &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_PLUS                &kp DE_TILDE                    &kp DE_LEFT_BRACE               &kp DE_RIGHT_BRACE                   &kp DE_BACKSLASH
-                                                          &trans                  &trans                    &kp TAB                    &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &kp ENTER                  &trans
+                                                          &kp C_PLAY_PAUSE        &trans                    &kp TAB                    &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &kp ENTER                  &trans
                                                                                                                                                          &mkp LCLK
             >;
 
@@ -157,16 +157,17 @@
         };
 
         win_lower_layer {
+            label = "NAV-FUN";
+            display-name = "NAV-FUN";
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3          &kp F4            &kp F5        &trans  &kp F6           &kp F7          &kp F8    &kp F9  &kp F10    &kp F11
-&trans   &trans  &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &kp HOME         &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &kp PAGE_UP
-&trans   &trans  &trans  &trans          &trans            &trans        &trans  &kp END          &trans          &trans    &trans  &trans     &kp PAGE_DOWN
-                 &trans  &trans          &trans            &trans        &trans  &kp PRINTSCREEN  &trans          &trans
-                                                                         &trans
+&trans  &kp F1    &kp F2         &kp F3          &kp F4            &kp F5        &mmv MOVE_UP     &kp F6           &kp F7          &kp F8          &kp F9        &kp F10          &kp F11
+&trans  &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &mmv MOVE_DOWN   &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F12
+&trans  &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &mmv MOVE_LEFT   &trans           &trans          &trans          &trans        &trans           &trans
+                  &trans         &trans          &trans            &trans        &mmv MOVE_RIGHT  &kp PRINTSCREEN  &trans          &trans
+                                                                                 &mkp LCLK
             >;
 
-            label = "FN";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         defaul_mac_layer {
@@ -198,16 +199,17 @@
         };
 
         mac_lower_layer {
+            label = "MAC-NAV";
+            display-name = "NAV-FUN";
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3          &kp F4            &kp F5        &trans  &kp F6                &kp F7          &kp F8    &kp F9  &kp F10    &kp F11
-&trans   &trans  &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &kp HOME              &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &kp PAGE_UP
-&trans   &trans  &trans  &trans          &trans            &trans        &trans  &kp END               &trans          &trans    &trans  &trans     &kp PAGE_DOWN
-                 &trans  &trans          &trans            &trans        &trans  &kp LS(LG(NUMBER_5))  &trans          &trans
-                                                                         &trans
+&trans  &kp F1    &kp F2         &kp F3          &kp F4            &kp F5        &mmv MOVE_UP     &kp F6                &kp F7          &kp F8          &kp F9        &kp F10          &kp F11
+&trans  &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &mmv MOVE_DOWN   &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F12
+&trans  &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &mmv MOVE_LEFT   &trans                &trans          &trans          &trans        &trans           &trans
+                  &trans         &trans          &trans            &trans        &mmv MOVE_RIGHT  &kp LS(LG(NUMBER_5))  &trans          &trans
+                                                                                 &mkp LCLK
             >;
 
-            label = "MAC-FN";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         default_game_layer {
