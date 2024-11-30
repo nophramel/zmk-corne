@@ -89,7 +89,7 @@
         to-WIN {
             bindings = <&to 0>;
             key-positions = <40 46>;
-            layers = <3 6 8>;
+            layers = <3 6 9>;
         };
 
         to-GAME {
@@ -99,13 +99,13 @@
         };
 
         to-NAV-FUN {
-            bindings = <&to 8>;
+            bindings = <&to 9>;
             key-positions = <31 33>;
             layers = <0 6>;
         };
 
         to-MAC-NAV {
-            bindings = <&to 8>;
+            bindings = <&to 9>;
             key-positions = <31 33>;
             layers = <3>;
         };
@@ -227,20 +227,34 @@
         };
 
         game_raise_layer {
-            label = "GAMENUM";
-            display-name = "NUMBERS";
+            label = "GAME-NUM";
+            display-name = "GAME-NUM";
             bindings = <
-&kp DE_SECTION                &kp DE_EXCL                 &kp DE_DOUBLE_QUOTES    &hml DE_HASH DE_ASTERISK  &hml DE_CENT DE_C_CEDILLA  &kp DE_PERCENT    &mmv MOVE_UP     &hmr DE_NOT DE_AMPS  &kp DE_SLASH               &hmr DE_GRAVE DE_SINGLE_QUOTE   &kp DE_LEFT_PARENTHESIS         &kp DE_RIGHT_PARENTHESIS             &kp DE_QUESTION
-&hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT NUMBER_2  &hml LEFT_GUI NUMBER_3    &hml LEFT_SHIFT NUMBER_4   &kp NUMBER_5      &mmv MOVE_DOWN   &kp DE_LESS_THAN     &hmr RIGHT_SHIFT DE_EQUAL  &hmr RIGHT_GUI DE_GREATER_THAN  &hmr RIGHT_ALT DE_LEFT_BRACKET  &hmr RIGHT_CONTROL DE_RIGHT_BRACKET  &hmr DE_BROKEN_BAR DE_PIPE
-&kp DE_CARET                  &kp NUMBER_6                &kp NUMBER_7            &kp NUMBER_8              &kp NUMBER_9               &kp NUMBER_0      &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_PLUS                &kp DE_TILDE                    &kp DE_LEFT_BRACE               &kp DE_RIGHT_BRACE                   &kp DE_BACKSLASH
-                                                          &trans                  &trans                    &kp TAB                    &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &kp ENTER                  &trans
-                                                                                                                                                         &mkp LCLK
+&kp DE_SECTION                &kp DE_EXCL                 &kp DE_DOUBLE_QUOTES        &hml DE_HASH DE_ASTERISK            &hml DE_CENT DE_C_CEDILLA             &kp DE_PERCENT    &mmv MOVE_UP     &hmr DE_NOT DE_AMPS  &hmr DE_SLASH DE_N7     &hmr DE_LEFT_PARENTHESIS DE_N8  &hmr DE_RIGHT_PARENTHESIS DE_N9  &hmr DE_ACUTE DE_SINGLE_QUOTE  &hmr DE_GRAVE DE_QUESTION
+&hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT DE_LESS_THAN  &hml LEFT_GUI DE_EQUAL              &hml LEFT_SHIFT DE_GREATER_THAN       &kp DE_TILDE      &mmv MOVE_DOWN   &kp DE_PLUS          &hmr RIGHT_SHIFT DE_N4  &hmr RIGHT_GUI DE_N5            &hmr RIGHT_ALT DE_N6             &hmr RIGHT_CONTROL RETURN      &hmr DE_BROKEN_BAR DE_PIPE
+&kp DE_CARET                  &trans                      &trans                      &hml DE_LEFT_BRACKET DE_LEFT_BRACE  &hml DE_RIGHT_BRACKET DE_RIGHT_BRACE  &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp DE_PERIOD                  &kp DE_BACKSLASH
+                                                          &kp C_PLAY_PAUSE            &trans                              &trans                                &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &trans                  &kp DE_N0
+                                                                                                                                                                                  &mkp LCLK
+            >;
+
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
+        };
+
+        game_lower_layer {
+            label = "GAME-NAV";
+            display-name = "NAV-FUN";
+            bindings = <
+&kp ESCAPE  &kp F1    &kp F2         &kp F3          &kp F4            &kp F5        &mmv MOVE_UP     &kp F6           &kp F7          &kp F8          &kp F9        &kp F10          &kp F11
+&trans      &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &mmv MOVE_DOWN   &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F12
+&trans      &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &mmv MOVE_LEFT   &trans           &trans          &trans          &trans        &trans           &trans
+                      &trans         &trans          &trans            &trans        &mmv MOVE_RIGHT  &kp PRINTSCREEN  &trans          &trans
+                                                                                     &mkp LCLK
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
-        keyboard_preferences_layer {
+        keeb_pref_layer {
             display-name = "FN";
 
             // -----------------------------------------------------------------------------------------
@@ -257,7 +271,7 @@
                                                                                                           &mkp LCLK
             >;
 
-            label = "KEYBOARD";
+            label = "SETTINGS";
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
     };
