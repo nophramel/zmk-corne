@@ -263,11 +263,11 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - F
   - G
   - $$mdi:arrow-down-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - J
   - K
   - L
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
@@ -284,7 +284,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - MUTE
   - NUMBERS
   - {t: '$$mdi:keyboard-tab$$', h: GAME}
