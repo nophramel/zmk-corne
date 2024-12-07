@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -161,7 +161,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -190,7 +190,7 @@ layers:
   - MUTE
   - MACNUM
   - {t: '$$mdi:keyboard-tab$$', h: NAV-FUN}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: RETURN, h: MACNUM}
@@ -408,3 +408,5 @@ combos:
 - p: [31, 33]
   k: {t: SETTINGS, h: toggle}
   l: [MAC]
+- p: [17, 21]
+  k: $$mdi:alpha-w-box$$
