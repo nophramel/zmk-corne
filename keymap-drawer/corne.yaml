@@ -192,7 +192,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: NAV-FUN}
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: 'Ctl+Sft+Gui+ $$mdi:apple-keyboard-option$$'}
   - {t: RETURN, h: MACNUM}
   - NAV-FUN
   - {t: '$$mdi:keyboard-return$$', type: enter}
