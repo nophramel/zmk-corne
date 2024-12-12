@@ -129,11 +129,11 @@
             //                                                      enter
 
             bindings = <
-&kp ESC     &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
-&kp DELETE  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
-&kp LCTRL   &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
-                                 &kp K_MUTE       &mo 1                &lt 2 TAB          &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &lt 1 RETURN        &mo 2
-                                                                                                       &kp ENTER
+&kp ESC       &kp Q                &kp W            &kp E                &kp R              &kp T        &kp UP_ARROW     &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
+&kp DELETE    &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G        &kp DOWN_ARROW   &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
+&kp CAPSLOCK  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp LEFT_ARROW   &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
+                                   &kp K_MUTE       &mo 1                &lt 2 TAB          &kp SPACE    &kp RIGHT_ARROW  &kp BACKSPACE  &lt 1 RETURN        &mo 2
+                                                                                                         &kp ENTER
             >;
 
             label = "QWERTZ"; // for DISPLAY label
@@ -152,7 +152,7 @@
             bindings = <
 &kp DE_SECTION                &kp DE_EXCL                 &kp DE_DOUBLE_QUOTES        &hml DE_HASH DE_ASTERISK            &hml DE_CENT DE_C_CEDILLA             &kp DE_PERCENT    &mmv MOVE_UP     &hmr DE_NOT DE_AMPS  &hmr DE_SLASH DE_N7     &hmr DE_LEFT_PARENTHESIS DE_N8  &hmr DE_RIGHT_PARENTHESIS DE_N9  &hmr DE_ACUTE DE_SINGLE_QUOTE  &hmr DE_GRAVE DE_QUESTION
 &hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT DE_LESS_THAN  &hml LEFT_GUI DE_EQUAL              &hml LEFT_SHIFT DE_GREATER_THAN       &kp DE_TILDE      &mmv MOVE_DOWN   &kp DE_PLUS          &hmr RIGHT_SHIFT DE_N4  &hmr RIGHT_GUI DE_N5            &hmr RIGHT_ALT DE_N6             &hmr RIGHT_CONTROL RETURN      &hmr DE_BROKEN_BAR DE_PIPE
-&kp DE_CARET                  &trans                      &trans                      &hml DE_LEFT_BRACKET DE_LEFT_BRACE  &hml DE_RIGHT_BRACKET DE_RIGHT_BRACE  &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp DE_PERIOD                  &kp DE_BACKSLASH
+&kp DE_CARET                  &trans                      &kp DE_AT                   &hml DE_LEFT_BRACKET DE_LEFT_BRACE  &hml DE_RIGHT_BRACKET DE_RIGHT_BRACE  &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp DE_PERIOD                  &kp DE_BACKSLASH
                                                           &kp C_PLAY_PAUSE            &trans                              &trans                                &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &trans                  &kp DE_N0
                                                                                                                                                                                   &mkp LCLK
             >;
@@ -179,11 +179,11 @@
             label = "MAC";
             display-name = "MAC";
             bindings = <
-&kp ESC     &kp Q                &kp W            &kp E                &kp R              &kp T                         &kp UP_ARROW     &kp Y                               &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
-&kp DELETE  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G                         &kp DOWN_ARROW   &kp H                               &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
-&kp LCTRL   &kp Z                &kp X            &kp C                &kp V              &kp B                         &kp LEFT_ARROW   &kp N                               &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
-                                 &kp K_MUTE       &mo 4                &lt 5 TAB          &mt LC(LS(LEFT_ALT)) SPACE    &kp RIGHT_ARROW  &mt LC(LS(LG(LEFT_ALT))) BACKSPACE  &lt 4 RETURN        &mo 5
-                                                                                                                        &kp ENTER
+&kp ESC       &kp Q                &kp W            &kp E                &kp R              &kp T                         &kp UP_ARROW     &kp Y                               &kp U               &kp I                 &kp O             &kp P                    &kp LEFT_BRACKET
+&kp DELETE    &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F  &kp G                         &kp DOWN_ARROW   &kp H                               &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
+&kp CAPSLOCK  &kp Z                &kp X            &kp C                &kp V              &kp B                         &kp LEFT_ARROW   &kp N                               &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp DELETE
+                                   &kp K_MUTE       &mo 4                &lt 5 TAB          &mt LC(LS(LEFT_ALT)) SPACE    &kp RIGHT_ARROW  &mt LC(LS(LG(LEFT_ALT))) BACKSPACE  &lt 4 RETURN        &mo 5
+                                                                                                                          &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -195,7 +195,7 @@
             bindings = <
 &kp DE_LESS_THAN              &kp DE_EXCL                 &kp DE_DOUBLE_QUOTES      &hml DE_HASH DE_ASTERISK  &hml DE_CENT DE_C_CEDILLA       &kp DE_PERCENT    &mmv MOVE_UP     &hmr DE_NOT DE_AMPS  &hmr DE_SLASH DE_N7     &hmr DE_LEFT_PARENTHESIS DE_N8  &hmr DE_RIGHT_PARENTHESIS DE_N9  &hmr DE_ACUTE DE_SINGLE_QUOTE  &hmr DE_GRAVE DE_QUESTION
 &hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT DE_SECTION  &hml LEFT_GUI DE_EQUAL    &hml LEFT_SHIFT LS(DE_SECTION)  &kp LA(DE_N)      &mmv MOVE_DOWN   &kp DE_PLUS          &hmr RIGHT_SHIFT DE_N4  &hmr RIGHT_GUI DE_N5            &hmr RIGHT_ALT DE_N6             &hmr RIGHT_CONTROL LA(RET)     &hmr DE_BROKEN_BAR DE_PIPE
-&kp DE_CARET                  &trans                      &trans                    &hml LA(DE_N8) LA(DE_N5)  &hml LA(DE_N9) LA(DE_N6)        &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp LA(DE_PERIOD)              &kp LA(LS(NUMBER_7))
+&kp DE_CARET                  &trans                      &kp DE_AT                 &hml LA(DE_N8) LA(DE_N5)  &hml LA(DE_N9) LA(DE_N6)        &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp LA(DE_PERIOD)              &kp LA(LS(NUMBER_7))
                                                           &kp C_PLAY_PAUSE          &trans                    &trans                          &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &trans                  &kp DE_N0
                                                                                                                                                                 &mkp LCLK
             >;
@@ -237,7 +237,7 @@
             bindings = <
 &kp DE_SECTION                &kp DE_EXCL                 &kp DE_DOUBLE_QUOTES        &hml DE_HASH DE_ASTERISK            &hml DE_CENT DE_C_CEDILLA             &kp DE_PERCENT    &mmv MOVE_UP     &hmr DE_NOT DE_AMPS  &hmr DE_SLASH DE_N7     &hmr DE_LEFT_PARENTHESIS DE_N8  &hmr DE_RIGHT_PARENTHESIS DE_N9  &hmr DE_ACUTE DE_SINGLE_QUOTE  &hmr DE_GRAVE DE_QUESTION
 &hml DE_POUND_SIGN DE_DOLLAR  &hml LEFT_CONTROL NUMBER_1  &hml LEFT_ALT DE_LESS_THAN  &hml LEFT_GUI DE_EQUAL              &hml LEFT_SHIFT DE_GREATER_THAN       &kp DE_TILDE      &mmv MOVE_DOWN   &kp DE_PLUS          &hmr RIGHT_SHIFT DE_N4  &hmr RIGHT_GUI DE_N5            &hmr RIGHT_ALT DE_N6             &hmr RIGHT_CONTROL RETURN      &hmr DE_BROKEN_BAR DE_PIPE
-&kp DE_CARET                  &trans                      &trans                      &hml DE_LEFT_BRACKET DE_LEFT_BRACE  &hml DE_RIGHT_BRACKET DE_RIGHT_BRACE  &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp DE_PERIOD                  &kp DE_BACKSLASH
+&kp DE_CARET                  &trans                      &kp DE_AT                   &hml DE_LEFT_BRACKET DE_LEFT_BRACE  &hml DE_RIGHT_BRACKET DE_RIGHT_BRACE  &kp DE_UMLAUT     &mmv MOVE_LEFT   &kp DE_MINUS         &kp DE_N1               &kp DE_N2                       &kp DE_N3                        &kp DE_PERIOD                  &kp DE_BACKSLASH
                                                           &kp C_PLAY_PAUSE            &trans                              &trans                                &kp BACKSPACE     &mmv MOVE_RIGHT  &kp BACKSPACE        &trans                  &kp DE_N0
                                                                                                                                                                                   &mkp LCLK
             >;
