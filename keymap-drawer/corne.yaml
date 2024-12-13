@@ -343,7 +343,7 @@ layers:
   - {type: held alternate}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
   - $$mdi:mouse-left-click-outline$$
-  SETTINGS:
+  OPTIONS:
   - EP TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -398,15 +398,15 @@ combos:
   l: [QWERTZ, GAME]
 - p: [40, 46]
   k: {t: QWERTZ, h: toggle}
-  l: [MAC, GAME, SETTINGS]
+  l: [MAC, GAME, OPTIONS]
 - p: [26, 38]
   k: {t: GAME, h: toggle}
   l: [QWERTZ, MAC]
 - p: [31, 33]
-  k: {t: SETTINGS, h: toggle}
+  k: {t: OPTIONS, h: toggle}
   l: [QWERTZ, GAME]
 - p: [31, 33]
-  k: {t: SETTINGS, h: toggle}
+  k: {t: OPTIONS, h: toggle}
   l: [MAC]
 - p: [17, 21]
   k: $$mdi:alpha-w-box$$
