@@ -190,9 +190,9 @@ layers:
   - MUTE
   - MACNUM
   - {t: '$$mdi:keyboard-tab$$', h: NAV-FUN}
-  - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: 'Ctl+$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', h: 'Ctl+Sft+Gui+ $$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:backspace$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-command$$'}
   - {t: RETURN, h: MACNUM}
   - NAV-FUN
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -215,13 +215,13 @@ layers:
   - '&hml LEFT_ALT (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_GRAVE_ACCENT_AND_TILDE))'
   - '&hml LEFT_GUI (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS)))'
   - '&hml LEFT_SHIFT LS((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_GRAVE_ACCENT_AND_TILDE)))'
-  - Alt+ (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
+  - Alt+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION)))
   - '&hmr RIGHT_SHIFT (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_4_AND_DOLLAR))'
   - '&hmr RIGHT_GUI (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))'
   - '&hmr RIGHT_ALT (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_6_AND_CARET))'
-  - {t: 'Alt+ $$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: 'Alt+$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - '&hmr (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))) (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND)))'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD EQUAL AND PLUS))
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,8 +234,8 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
-  - Alt+ (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - Alt+Sft+ 7
+  - Alt+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - Alt+Sft+7
   - PLAY PAUSE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
