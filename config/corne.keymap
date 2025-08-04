@@ -152,11 +152,11 @@
             label = "MAC-NAV";
             display-name = "NAV-FUN";
             bindings = <
-&kp ESCAPE  &kp F1    &kp F2         &kp F3          &kp F4            &kp F5        &mmv MOVE_UP     &kp F6                &kp F7          &kp F8          &kp F9        &kp F10          &kp F11
-&trans      &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &mmv MOVE_DOWN   &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F12
-&trans      &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &mmv MOVE_LEFT   &trans                &trans          &trans          &trans        &trans           &trans
-                      &trans         &trans          &trans            &trans        &mmv MOVE_RIGHT  &kp LS(LG(NUMBER_5))  &trans          &trans
-                                                                                     &mkp LCLK
+&kp ESCAPE  &kp F1    &kp F2         &kp F3                &kp F4            &kp F5                  &mmv MOVE_UP     &kp F6                &kp F7                &kp F8          &kp F9        &kp F10          &kp F11
+&trans      &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT              &mmv MOVE_DOWN   &trans                &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F12
+&trans      &kp END   &kp PAGE_DOWN  &trans                &trans            &trans                  &mmv MOVE_LEFT   &trans                &trans                &trans          &trans        &trans           &trans
+                      &trans         &kp LS(LG(NUMBER_5))  &trans            &kp LS(LG(NUMBER_4))    &mmv MOVE_RIGHT  &kp LS(LG(NUMBER_5))  &kp LS(LG(NUMBER_4))  &trans
+                                                                                                     &mkp LCLK
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
