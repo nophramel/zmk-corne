@@ -410,3 +410,5 @@ combos:
   l: [MAC]
 - p: [17, 21]
   k: $$mdi:alpha-w-box$$
+- p: [13, 14]
+  k: $$mdi:apple-keyboard-caps$$
