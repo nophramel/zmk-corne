@@ -30,7 +30,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <190>;
             quick-tap-ms = <175>;
             flavor = "balanced";
             hold-trigger-key-positions = <40 41 42 44 45 46 0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31>;
@@ -43,7 +43,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <190>;
             quick-tap-ms = <175>;
             flavor = "balanced";
             hold-trigger-on-release;
@@ -114,6 +114,11 @@
         CapsWord {
             bindings = <&caps_word>;
             key-positions = <17 21>;
+        };
+
+        ALL-CAPS {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <13 14>;
         };
     };
 
