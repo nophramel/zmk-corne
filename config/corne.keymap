@@ -116,7 +116,7 @@
             key-positions = <17 21>;
         };
 
-        ALL-CAPS {
+        CAPZ {
             bindings = <&kp CAPSLOCK>;
             key-positions = <13 14>;
         };
