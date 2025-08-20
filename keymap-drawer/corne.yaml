@@ -43,7 +43,7 @@ layers:
   - MUTE
   - MACNUM
   - {t: '$$mdi:keyboard-tab$$', h: NAV-FUN}
-  - {t: '$$mdi:keyboard-space$$', h: 'Ctl+$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: 'Gui+$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-command$$'}
   - {t: RETURN, h: MACNUM}
